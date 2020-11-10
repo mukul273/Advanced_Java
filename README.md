@@ -7,6 +7,25 @@ This programming approach is about how a program should be executed step by step
 ### Declarative programming:  
 This approach is about not necessarily how but what should be executed
 
+### What is Lambda expression:
+Lambda expression is an anonymous function without a name that doesn't belong to any class.
+
+    Method                  |           Lambda Expression
+    ------------------------------------------------------
+    Name                    |           No Name
+    Parameters List         |           Parameters list
+    Body                    |           Body (main part)
+    return type             |           No return type(JVM infers the return type by scanning the code)               
+    
+    General Syntax
+    ()              ->          { }
+    Lambda         Arrow        Lambda 
+    Input          denoting     Body
+    Parameters     Lambda
+
+Any interface with Single Abstract method is a functional interface and implementation may be treated as lambda expression
+
+```@FunctionalInterface``` annotation demotes that method can be treated as lambda expression.
 
 
 ### Reference Documentation

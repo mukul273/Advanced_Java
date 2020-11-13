@@ -35,6 +35,11 @@ It takes one argument and produces the result, it doesn't return any result
 ### BiConsumer Interface
 It takes two arguments and produces result  
 
+### Predicate interface:  
+It's a single argument function that returns true or false
+
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

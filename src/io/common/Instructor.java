@@ -3,21 +3,12 @@ package io.common;
 import java.util.List;
 
 public class Instructor {
-    String name;
-    int experience;
-    String title;
-
-    @Override
-    public String toString() {
-        return "Instructor{" +
-                "name='" + name + '\'' +
-                ", experience=" + experience +
-                ", title='" + title + '\'' +
-                ", gender='" + gender + '\'' +
-                ", onlineCourses=" + onlineCourses +
-                ", courses=" + courses +
-                '}';
-    }
+    private String name;
+    private int experience;
+    private String title;
+    private String gender;
+    private boolean onlineCourses;
+    private List<String> courses;
 
     public Instructor(String name, int experience, String title, String gender, boolean onlineCourses, List<String> courses) {
         this.name = name;
@@ -76,8 +67,15 @@ public class Instructor {
         this.courses = courses;
     }
 
-    String gender;
-    boolean onlineCourses;
-    List<String> courses;
-
+    @Override
+    public String toString() {
+        return "Instructor {" +
+                "name='" + name + '\'' +
+                ", experience=" + experience +
+                ", title='" + title + '\'' +
+                ", gender='" + gender + '\'' +
+                ", onlineCourses=" + onlineCourses +
+                ", courses=" + courses +
+                '}';
+    }
 }

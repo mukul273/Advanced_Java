@@ -25,7 +25,12 @@ Lambda expression is an anonymous function without a name that doesn't belong to
 
 Any interface with Single Abstract method is a functional interface and implementation may be treated as lambda expression
 
-```@FunctionalInterface``` annotation denotes that method can be treated as lambda expression.
+```@FunctionalInterface``` annotation denotes that method can be treated as lambda expression.  
+Functional interface have default and static methods which have an implementation  
+
+### Consumer interface: 
+It is a part of java.util.function package  
+It takes one argument and produces the result  
 
 
 ### Reference Documentation

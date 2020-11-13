@@ -30,8 +30,10 @@ Functional interface have default and static methods which have an implementatio
 
 ### Consumer interface: 
 It is a part of java.util.function package  
-It takes one argument and produces the result  
+It takes one argument and produces the result, it doesn't return any result  
 
+### BiConsumer Interface
+It takes two arguments and produces result  
 
 ### Reference Documentation
 For further reference, please consider the following sections:

@@ -64,6 +64,18 @@ IntBinaryOperator, LongBinaryOperator, DoubleBinaryOperator are specific interfa
 This is opposite of Consumer Interface  
 This is a factory interface  
 
+### Method reference
+Each time if the lambda expression is referring the method then it can be relaced with method reference  
+For e.g: String -> System.out.print(str) can be replaced like System.out::print  
+Types:  
+Class:: staticMethod() // Reference to static method
+object::instanceMethod // Reference to an instance method
+Class::new // Reference to constructor
+
+
+
+
+
 
 
 ### Reference Documentation

@@ -60,6 +60,9 @@ Both params must be of same type so is return type
 Generally used for mathematical use cases  
 IntBinaryOperator, LongBinaryOperator, DoubleBinaryOperator are specific interfaces  
 
+### Supplier Interface
+This is opposite of Consumer Interface  
+This is a factory interface  
 
 
 

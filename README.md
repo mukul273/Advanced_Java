@@ -72,6 +72,11 @@ Class:: staticMethod() // Reference to static method
 object::instanceMethod // Reference to an instance method
 Class::new // Reference to constructor
 
+### Variable scope
+The body of lambda has same scope as nested block  
+We can't declare param name to lambda function and local var name as same  
+Effect Final: This means that local var can't be modified in the lambda function even though they are   
+not declared as final  
 
 
 

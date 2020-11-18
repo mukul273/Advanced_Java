@@ -50,6 +50,12 @@ It takes two arguments and produces results.
 While declaring BiFunction we need to tell what type of argument will be passed and what will be 
 return type. We can apply our business logic with those two values and return the result.
 
+### UnaryOperator Interface
+It's an interface where the operand and result are of same type. It extends from Function interface.
+There are IntUnaryOperator, LongUnaryOperator and DoubleUnaryOperator types.
+
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

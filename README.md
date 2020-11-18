@@ -54,6 +54,13 @@ return type. We can apply our business logic with those two values and return th
 It's an interface where the operand and result are of same type. It extends from Function interface.
 There are IntUnaryOperator, LongUnaryOperator and DoubleUnaryOperator types.
 
+## BinaryOperator Interface
+It takes two params and return single value  
+Both params must be of same type so is return type  
+Generally used for mathematical use cases  
+IntBinaryOperator, LongBinaryOperator, DoubleBinaryOperator are specific interfaces  
+
+
 
 
 ### Reference Documentation

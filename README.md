@@ -33,7 +33,7 @@ It is a part of java.util.function package
 It takes one argument and produces the result, it doesn't return any result  
 
 ### BiConsumer Interface
-It takes two arguments and produces result  
+It takes two arguments and produces results. 
 
 ### Predicate interface:  
 It's a single argument function that returns true or false

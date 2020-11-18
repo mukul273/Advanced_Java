@@ -33,12 +33,22 @@ It is a part of java.util.function package
 It takes one argument and produces the result, it doesn't return any result  
 
 ### BiConsumer Interface
-It takes two arguments and produces results. 
+It takes two arguments, BiConsumer does not return value. 
 
 ### Predicate interface:  
 It's a single argument function that returns true or false
 
+### BiPredicate interface:  
+It's a functional interface which accepts two argument and returns Boolean value.  
+Apply business logic for the values passed as an argument and return the boolean value.
 
+### Function Interface
+It takes one argument and produces results.
+
+### BiFunction Interface
+It takes two arguments and produces results.  
+While declaring BiFunction we need to tell what type of argument will be passed and what will be 
+return type. We can apply our business logic with those two values and return the result.
 
 ### Reference Documentation
 For further reference, please consider the following sections:

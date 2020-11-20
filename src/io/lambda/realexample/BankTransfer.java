@@ -54,7 +54,7 @@ public class BankTransfer {
         }
         service.shutdown();
         try {
-            while (! service.awaitTermination(20L, TimeUnit.SECONDS)) {
+            while (! service.awaitTermination(20L, TimeUnit.HOURS)) {
                 System.out.println("Still waiting for termination.");
             }
         } catch (InterruptedException e) {

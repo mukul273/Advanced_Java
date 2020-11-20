@@ -81,10 +81,24 @@ not declared as final
 ### Stream
 Stream is a sequence of objects that support various methods and can be pipelined to produce result  
 Stream supports Map-reduce-filter transformation on collection  
+** Streams are effective only when terminating operation is executed. For e.g. .collect(...)  
 
 
+    Collection                  |           Streams
+    --------------------------------------------------------------
+    Used for storing and        | Used for performing operation on 
+    grouping the data           | input from collection
+                                |
+    Can add/remove elements     | Can't add/remove elements
+                                |
+    Have to be iterated         | Streams are internally iterated
+    Externally                  |
 
-
+    Can be traversed multiple   | Streams are traversed only once
+    times                       |
+    
+    Eagerly constructed         | Lazy construction
+    E.g. List, map, Set,        | e.g. Filtering, mapping, reduce
 
 
 ### Reference Documentation

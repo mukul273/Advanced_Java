@@ -100,6 +100,9 @@ Stream supports Map-reduce-filter transformation on collection
     Eagerly constructed         | Lazy construction
     E.g. List, map, Set,        | e.g. Filtering, mapping, reduce
 
+Debugging the Stream can be done in two ways:
+1. Run the code in debug mode and then open up the "Trace Current Stream Chain" option (Intellij)  
+2. use peek() to check the state of that stream at that point  
 
 ### Reference Documentation
 For further reference, please consider the following sections:

@@ -23,6 +23,14 @@ public class Instructors {
                 false,
                 Arrays.asList("Elevate Yourself", "Little hacks", "Don't give up"));
 
-        return Arrays.asList(instructor, instructor1);
+        Instructor instructor2 = new Instructor(
+                "Dave",
+                15,
+                "Comp Engg",
+                "male",
+                false,
+                Arrays.asList("DS & Algo", "AWS IAM", "Data Analysis", "CI/CD"));
+
+        return Arrays.asList(instructor, instructor1, instructor2);
     }
 }

@@ -78,6 +78,10 @@ We can't declare param name to lambda function and local var name as same
 Effect Final: This means that local var can't be modified in the lambda function even though they are   
 not declared as final  
 
+### Stream
+Stream is a sequence of objects that support various methods and can be pipelined to produce result  
+Stream supports Map-reduce-filter transformation on collection  
+
 
 
 

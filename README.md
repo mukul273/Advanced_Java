@@ -104,6 +104,12 @@ Debugging the Stream can be done in two ways:
 1. Run the code in debug mode and then open up the "Trace Current Stream Chain" option (Intellij)  
 2. use peek() to check the state of that stream at that point  
 
+### MAP
+1. It converts stream of x to stream of y  
+2. It's a internmediate operation and return stream as method return  
+3. 
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

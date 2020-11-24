@@ -1,5 +1,5 @@
 # Advanced_Java
-Advanced Java course
+Advanced Java course covering Java 8 through Java 13
 
 ### Imperative programming:  
 This programming approach is about how a program should be executed step by step
@@ -129,6 +129,15 @@ Stream filter with Predicate argument returns the stream of elements matching th
 ** This filter is lazy operation meaning, filter doesn't actually perform any filtering 
 but instead creates a new stream that when traversed contains the elements of the initial stream 
 that matches the predicate  
+
+## Reduce
+Reduce the repeated process of combining all elements  
+It takes an input of elements and combines them into single result by combining operations  
+like sum, multiplication, division etc.  
+T reduce(identity, BinaryOperator)  
+Optional reduce(BinaryOperator)  
+
+Optional is a container object which may or may not contain a non-value  
 
 
 ### Reference Documentation

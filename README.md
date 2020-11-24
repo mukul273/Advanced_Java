@@ -122,7 +122,7 @@ Sorted order of elements based on natural order
 returns whether any element of this stream match the provided predicate
 #### allMatch()
 return whether all elements of this stream match the provided predicate
-#### nonMatch()
+#### noneMatch()
 returns whether no elements of this stream match teh provided predicate
 
 

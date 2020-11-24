@@ -125,7 +125,7 @@ return whether all elements of this stream match the provided predicate
 #### noneMatch()
 returns whether no elements of this stream match the provided predicate
 #### filter(Predicate)
-Stream filter with Predicate argument returns the stream of elements matching the given predicate
+Stream filter with Predicate argument returns the stream of elements matching the given predicate  
 ** This filter is lazy operation meaning, filter doesn't actually perform any filtering 
 but instead creates a new stream that when traversed contains the elements of the initial stream 
 that matches the predicate  

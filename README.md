@@ -107,7 +107,23 @@ Debugging the Stream can be done in two ways:
 ### MAP
 1. It converts stream of x to stream of y  
 2. It's a internmediate operation and return stream as method return  
-3. 
+
+### FlatMap  
+1. It's a combination of MAP and Flat operation,
+2. Used for flatten the stream,
+
+#### distinct()
+Method to filter or collect all distinct elements from the collection
+#### count()
+Returns the count of elements in the stream
+#### sorted()
+Sorted order of elements based on natural order
+#### anyMatch()
+returns whether any element of this stream match the provided predicate
+#### allMatch()
+return whether all elements of this stream match the provided predicate
+#### nonMatch()
+returns whether no elements of this stream match teh provided predicate
 
 
 ### Reference Documentation

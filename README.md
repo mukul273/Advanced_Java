@@ -145,6 +145,15 @@ It takes one (long) argument and returns the stream of size number more than n
 #### skip(s)
 It takes one long (n) as argument and returns a stream after removing first n elements  
 
+#### findFirst()
+It returns an Optional Object containing first element of the stream OR an empty Optional  
+Object
+
+#### findAny()
+It returns an Optional Object containing any one element of the stream OR an empty Optional 
+Object  
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

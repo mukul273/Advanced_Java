@@ -139,6 +139,11 @@ Optional reduce(BinaryOperator)
 
 Optional is a container object which may or may not contain a non-value  
 
+#### limit()
+It takes one (long) argument and returns the stream of size number more than n
+
+#### skip(s)
+It takes one long (n) as argument and returns a stream after removing first n elements  
 
 ### Reference Documentation
 For further reference, please consider the following sections:

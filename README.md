@@ -172,6 +172,12 @@ These streams are for primitive streams respectively for integer, long and doubl
 ## Numeric Streams Aggregate Functions
 sum(), max(), min(), average()
 
+###Boxing()
+Converting a primitive to a wrapper class object type is boxing
+
+### UnBoxing()
+Converting a wrapper object type to a primitive type is unboxing
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 

@@ -210,6 +210,9 @@ the function and then collects the mapped elements using the given collectors
 minBy returns the collector that produces the minimal elements according to a given comparator  
 maxBy returns the collector that produces the maximum elements according to a given comparator
 
+### Collectors.summingInt() and Collectors.averagingInt()
+summingInt() returns a collector that constructs sum of the integer valued function applied to input elements
+averagingInt() returns a collector that constructs average of the integer valued function applied to input elements
 
 
 * [Official Gradle documentation](https://docs.gradle.org)

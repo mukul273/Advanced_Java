@@ -211,9 +211,15 @@ minBy returns the collector that produces the minimal elements according to a gi
 maxBy returns the collector that produces the maximum elements according to a given comparator
 
 ### Collectors.summingInt() and Collectors.averagingInt()
-summingInt() returns a collector that constructs sum of the integer valued function applied to input elements
+summingInt() returns a collector that constructs sum of the integer valued function applied to input elements  
 averagingInt() returns a collector that constructs average of the integer valued function applied to input elements
 
+### groupingBy()
+This method provides functionality similar to groupBy in SQL. Output is Map(K,V)
+There are 3 factory methods  
+groupingBy(classifier)  
+groupingBy(classifier, downstream)  
+groupingBy(classifier, mapFactory, downstream)  
 
 * [Official Gradle documentation](https://docs.gradle.org)
 * [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/gradle-plugin/reference/html/)

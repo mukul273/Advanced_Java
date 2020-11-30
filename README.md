@@ -1,4 +1,4 @@
-# Advanced_Java
+# Advanced Java
 Advanced Java course covering Java 8 through Java 13
 
 ### Imperative programming:  
@@ -220,6 +220,12 @@ There are 3 factory methods
 groupingBy(classifier)  
 groupingBy(classifier, downstream)  
 groupingBy(classifier, mapFactory, downstream)  
+
+### Collectors.partitioningBy() 
+This method is used to partition a stream of objects based on a given predicate  
+Factory methods()  
+partitioningBY(predicate) returns the Map<Boolean, List<T>>  
+partitioningBY(predicate, downstream) returns the Map<Boolean, List<T>>  
 
 * [Official Gradle documentation](https://docs.gradle.org)
 * [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/gradle-plugin/reference/html/)

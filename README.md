@@ -206,6 +206,9 @@ Count the no of elements in a stream
 Collectors class mapping() method takes a function and collector and creates a new collector which apply  
 the function and then collects the mapped elements using the given collectors
 
+### minBy() and maxBy()
+minBy returns the collector that produces the minimal elements according to a given comparator  
+maxBy returns the collector that produces the maximum elements according to a given comparator
 
 
 

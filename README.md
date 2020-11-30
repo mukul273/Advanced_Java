@@ -227,7 +227,7 @@ Factory methods()
 partitioningBY(predicate) returns the Map<Boolean, List<T>>  
 partitioningBY(predicate, downstream) returns the Map<Boolean, List<T>>  
 
-#ParallelStreams
+# ParallelStreams
 Parallel stream leverages multicore processors resulting in a substantial increase in performance  
 This uses fork/join framework  
 There are 2 ways to achieve parallel streams  

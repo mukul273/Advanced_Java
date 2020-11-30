@@ -227,10 +227,9 @@ Factory methods()
 partitioningBY(predicate) returns the Map<Boolean, List<T>>  
 partitioningBY(predicate, downstream) returns the Map<Boolean, List<T>>  
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/gradle-plugin/reference/html/)
-
-### Additional Links
-These additional references should also help you:
-
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+#ParallelStreams
+Parallel stream leverages multicore processors resulting in a substantial increase in performance  
+This uses fork/join framework  
+There are 2 ways to achieve parallel streams  
+1. calling parallelStream() on collection
+2. Calling parallel() on stream

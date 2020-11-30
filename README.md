@@ -199,6 +199,9 @@ It concatenates the input elements into String separated by the specified delimi
 ### Joining(CharSequence delimiter, CharSequence prefix, CharSequence suffix)
 It concatenates the input elements separated by the specified delimiter with specified prefix and suffix in the encounter order  
 
+### Counting()
+Count the no of elements in a stream
+
 
 
 

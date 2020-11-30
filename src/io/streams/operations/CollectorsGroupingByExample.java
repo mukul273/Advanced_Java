@@ -29,7 +29,7 @@ public class CollectorsGroupingByExample {
         });
         System.out.println();
 
-        // Use case - groupingBy(classifier, downstream)
+        // Another Use case - groupingBy(classifier)
         Map<String, List<Instructor>> collect1 = Instructors.getAllInstructors().stream()
                 .collect(Collectors.groupingBy(instructor ->
                         instructor.getExperience() > 10 ? "Senior" : "Junior"

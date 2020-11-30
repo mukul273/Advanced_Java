@@ -190,6 +190,18 @@ It returns LongStream consisting of the results of the given function
 ### mapToDouble()
 It returns DoubleStream consisting of the results of the given function
 
+### Joining()
+It concatenates the input elements into string in encounter order
+
+### Joining(CharSequence delimiter)
+It concatenates the input elements into String separated by the specified delimiter
+
+### Joining(CharSequence delimiter, CharSequence prefix, CharSequence suffix)
+It concatenates the input elements separated by the specified delimiter with specified prefix and suffix in the encounter order  
+
+
+
+
 * [Official Gradle documentation](https://docs.gradle.org)
 * [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/gradle-plugin/reference/html/)
 

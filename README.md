@@ -202,6 +202,10 @@ It concatenates the input elements separated by the specified delimiter with spe
 ### Counting()
 Count the no of elements in a stream
 
+### Mapping()
+Collectors class mapping() method takes a function and collector and creates a new collector which apply  
+the function and then collects the mapped elements using the given collectors
+
 
 
 

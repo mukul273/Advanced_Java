@@ -233,3 +233,4 @@ This uses fork/join framework
 There are 2 ways to achieve parallel streams  
 1. calling parallelStream() on collection
 2. Calling parallel() on stream
+

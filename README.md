@@ -234,3 +234,5 @@ There are 2 ways to achieve parallel streams
 1. calling parallelStream() on collection
 2. Calling parallel() on stream
 
+### Optional  
+This class is in util package and help to avoid null checks  

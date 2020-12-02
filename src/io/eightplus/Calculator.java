@@ -4,7 +4,7 @@ package io.eightplus;
 public interface Calculator {
 
     //Abstract method
-    public int sum(int num1, int num2);
+    int sum(int num1, int num2);
     //public int division(int num1, int num2); // if uncommented then we will have to remove @FunctionalInterface will have to be removed
 
     //Default methods

@@ -242,4 +242,7 @@ OrElse - get the value if present or returns the alternative value
 OrElseGet - get the value or gets the supplier value  
 OrElseThrow - throw the exception produced by supplier function or else return the value  
 
+## Hierarchy of interfaces
+overloaded/overridden methods are always executed in following order  
+First from the class implementing then from the sub interfaces(child interfaces) and then from parent interfaces  
 

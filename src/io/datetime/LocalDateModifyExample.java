@@ -2,7 +2,6 @@ package io.datetime;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoField;
-import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 
 public class LocalDateModifyExample {

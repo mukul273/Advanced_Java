@@ -236,3 +236,10 @@ There are 2 ways to achieve parallel streams
 
 ### Optional  
 This class is in util package and help to avoid null checks  
+Factory methods are  
+### OrElse(), OrElseGet(), OrElseThrow()
+OrElse - get the value if present or returns the alternative value  
+OrElseGet - get the value or gets the supplier value  
+OrElseThrow - throw the exception produced by supplier function or else return the value  
+
+

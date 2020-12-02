@@ -247,3 +247,7 @@ OrElseThrow - throw the exception produced by supplier function or else return t
 overloaded/overridden methods are always executed in following order  
 First from the class implementing then from the sub interfaces(child interfaces) and then from parent interfaces  
 
+### Instant
+An instant is defined as an instant in teh datetime continuum specified as a number of milliseconds from  
+1970-01-00.00.00.000000000  
+This represents the start opf teh nanosecond on teh timeline.

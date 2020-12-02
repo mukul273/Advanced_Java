@@ -27,6 +27,7 @@ Any interface with Single Abstract method is a functional interface and implemen
 
 ```@FunctionalInterface``` annotation denotes that method can be treated as lambda expression.  
 Functional interface have default and static methods which have an implementation  
+It also means the interface has ONLY one abstract method  
 
 ### Consumer interface: 
 It is a part of java.util.function package  

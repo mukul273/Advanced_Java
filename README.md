@@ -274,3 +274,8 @@ Starting Java 10 we can drop explicitly referring the variable type depending up
 Remember class level var(s) is not allowed, only local var as in method  
 
 
+### Garbage Collection
+G1 Garbage first collection algorithm is improved with it's worst case latency (Parallel full GC)  
+
+
+

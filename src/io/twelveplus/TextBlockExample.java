@@ -2,7 +2,7 @@ package io.twelveplus;
 
 public class TextBlockExample {
     public static void main(String[] args) {
-        String st1 = """
+        /*String st1 = """
                     Hello World
                     Using
                     text blocks !""";
@@ -29,7 +29,7 @@ public class TextBlockExample {
         System.out.println("html = " + html);
 
         String st2 = st1.concat("This is my first text block");
-        System.out.println("st2 = " + st2);
+        System.out.println("st2 = " + st2);*/
 
 
     }

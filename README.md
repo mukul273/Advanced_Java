@@ -280,3 +280,6 @@ G1 Garbage first collection algorithm is improved with it's worst case latency (
 ### Switch Expressions
 These are different from switch statements. No boiler plate code, no break statements.
 
+### Text block
+Denoted by """ (3 quotes)
+

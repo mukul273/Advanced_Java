@@ -263,3 +263,9 @@ Intellij gives JShell console built under tools menu.
 Java 9 introduced an abstraction layer on top of packages which is called Java Platform Module System  
 java --list-modules to list the modules in JDK  
 
+### Try-with-resources
+it is a try statement that declares one or more resource(s)  
+Resource is an object that must be closed after the program is finished with  
+try-with-resource makes sure that the resource is closed  
+Resource should implement AutoClosable OR java.io.Closeable  
+

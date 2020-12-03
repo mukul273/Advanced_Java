@@ -250,4 +250,16 @@ First from the class implementing then from the sub interfaces(child interfaces)
 ### Instant
 An instant is defined as an instant in teh datetime continuum specified as a number of milliseconds from  
 1970-01-00.00.00.000000000  
-This represents the start opf teh nanosecond on teh timeline.
+This represents the start of the nanosecond on teh timeline.
+
+## JShell
+JShell was introduced in Java 9. It's a interactive tool for learning and prototyping Java code.  
+REPL: Read-Evaluate-Print-Loop can help flatten out the learning curve of Java  
+It shows the results as we code. The evaluation of code happens as we type.
+REPL is used for writing and testing small code snippets  
+Intellij gives JShell console built under tools menu. 
+
+### Module System
+Java 9 introduced an abstraction layer on top of packages which is called Java Platform Module System  
+java --list-modules to list the modules in JDK  
+

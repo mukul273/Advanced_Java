@@ -269,3 +269,8 @@ Resource is an object that must be closed after the program is finished with
 try-with-resource makes sure that the resource is closed  
 Resource should implement AutoClosable OR java.io.Closeable  
 
+### Type interference with var
+Starting Java 10 we can drop explicitly referring the variable type depending upon whether compiler can infer the type  
+Remember class level var(s) is not allowed, only local var as in method  
+
+

@@ -277,5 +277,6 @@ Remember class level var(s) is not allowed, only local var as in method
 ### Garbage Collection
 G1 Garbage first collection algorithm is improved with it's worst case latency (Parallel full GC)  
 
-
+### Switch Expressions
+These are different from switch statements. No boiler plate code, no break statements.
 
